@@ -18,12 +18,12 @@ function inc(n){
 function dec(n){
   return n-=1;
 }
-function makeInt(n, 10){
-  if(n>=1){
+function makeInt(n){
+  if(n>=0){
     return parseInt(n);
   }
-  if(0<n<1){
-    return 
+  if(n===isNaN){
+    return 'NaN';
   }
 }
 function preserveDecimal(n){
